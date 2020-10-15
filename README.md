@@ -1,5 +1,7 @@
 # AWS Lambda + Serverless + ExpressJS
 
+Wrapper for a preconfigured application that will run in a serverless structure on AWS Lambda.
+
 ## Main commands
 
 ```bash
