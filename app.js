@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 // End ExpressJS application
 
 const args = process.argv.slice(2);
-if (args[0] == "--express") {
+if (args.some((arg) => arg.includes("--express"))) {
   const port = 3000;
   app.listen(port, () => {
     console.log(`Listening on https://localhost:${port}`);

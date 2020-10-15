@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js --express",
+    "start": "nodemon app.js --express",
     "dev": "serverless offline start",
     "deploy": "serverless deploy"
   },
@@ -14,6 +14,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "nodemon": "^2.0.5",
     "serverless": "^2.7.0",
     "serverless-offline": "^6.8.0"
   },
