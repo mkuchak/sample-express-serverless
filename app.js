@@ -17,7 +17,7 @@ const args = process.argv.slice(2);
 if (args.some((arg) => arg.includes("--express"))) {
   const port = 3000;
   app.listen(port, () => {
-    console.log(`Listening on https://localhost:${port}`);
+    console.log(`Listening on http://localhost:${port}`);
   });
 } else {
   module.exports = app;
